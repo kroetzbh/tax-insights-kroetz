@@ -4,7 +4,7 @@ import numpy as np
 import altair as alt
 import csv
 
-with open('Single_Filer_Income_Tax_Brackets_2023.csv','r') as f:
+with open('Single_Filer_Income_Tax_2023.csv','r') as f:
   reader = csv.reader(f)
   data = list(reader)
 
